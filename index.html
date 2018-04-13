@@ -9,9 +9,35 @@
     <script src="jquery-3.3.1.min (2).js"></script>
     <script src="script.js"></script>
 </head>
+
 <h1>Salary Calculator</h1>
 
 <body>
-    
+
+    <h2 id="addEmployeeText">Add Employee</h2>
+
+    <input type='text' placeHolder="First Name" id="newFirstName">
+    <input type='text' placeHolder="Last Name" id="newLastName">
+    <input type='number' placeHolder="ID" id="newId">
+    <input type='text' placeHolder="Title" id="newJobTitle">
+    <input type='number' placeHolder="Annual Salary" id="newAnnualSalary">
+
+    <button id='button'>Submit</button>
+
+    <h2 id= "employeesText">Employees</h2>
+
+    <table>
+        <thread>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thread>
+        <tbody id="addNewEmployee"></tbody>
+        <span id="totalMonthly">Total Monthly</span>
+    </table>
 </body>
 </html>
