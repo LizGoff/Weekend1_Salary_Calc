@@ -1,35 +1,24 @@
-console.log("JS");
+//console.log("JS");
 
-let clickEmployeeName = 0;
+//let clickEmployeeName = 0;
 
 $(document).ready(onReady);
-console.log('Sheet ready');
+//console.log('Sheet ready');
 
 function onReady() {
-    console.log("See sheet");
+ //   console.log("See sheet");
     $('button').on("click", clickHandler);
-    displayEmployeeName();
+    addEmployee();
 
     function clickHandler() {
-        console.log('was clicked!!!!!!!');
-        clickEmployeeName++;
-        console.log(clickEmployeeName);
-    }
-    //     let click = $("#addNewEmployee");
-    //     console.log($("#addNewEmployee"));
-    //     console.log(click);
-        displayEmployeeName();
-    //     newFirstName();
-    // }
-
-     function displayEmployeeName() {
-        let newNameFirst = "#newFirstName";
-        $("#totalMonthly").text(clickEmployeeName);
+       console.log('was clicked');
+    addEmployee();
+    //     "totalMonthly" ?
     }
 
-    // function addNewInput() {
-    //     $("#addNewEmployee").append("<tr>" + "<td>" + $("#newFirstName").val() + "<td>" + "<td>" + $("#newLastName").val() + "<td>" + "<td>" + $("#newId").val() + "<td>" + "<td>" + $("#newJobTitle").val() + "<td>" + "<td>" + $("#newAnnualSalary").val() + "<td>" + "<tr>");
-    //     console.log($("#addNewEmployee"));
-    // }
+    function addEmployee() {
+    $("#addNewEmployee").append("<tr>" + "<td>" + $("#newFirstName").val() + "</td>" + "<td>" + $("#newLastName").val() + "</td>" + "<td>" + $("#newId").val() + "</td>" + "<td>" + $("#newJobTitle").val() + "</td>" + "<td>" + $("#newAnnualSalary").val() + "</td>" + "<tr>");
+         console.log("addNewEmployee");
+    }
 
 }
