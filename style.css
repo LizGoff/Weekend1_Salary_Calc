@@ -9,15 +9,25 @@ body {
     background: #F5F5F5;
     font-family: Arial;
     background-position: fixed;
-
 }
 
 h1 {
-    background-color: #708090;
+    background-color: #696969;
     text-align: center;
+    font-size: 30px;
+    font-style: thin;
     color: white;
-    height: 80px;
     width: 100%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#addEmployeeText {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .inputFeilds {
@@ -25,13 +35,12 @@ h1 {
     height: 60px;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    float: left;
 }
 
 input {
     text-align: left;
     color: #C0C0C0;
-
 }
 
 #button {
@@ -49,19 +58,19 @@ input {
 #newLastName {
     border: 1px solid black;
     text-align: left;
-
+    margin-left: 5px;
 }
 
 #newId {
     border: 1px solid black;
     text-align: left;
-
+    margin-left: 5px;
 }
 
 #newJobTitle {
     border: 1px solid black;
     text-align: left;
-
+    margin-left: 5px;
 }
 
 #newAnnualSalary {
