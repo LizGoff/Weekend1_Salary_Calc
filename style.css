@@ -41,50 +41,64 @@ h1 {
 input {
     text-align: left;
     color: #C0C0C0;
+    width: 94%;
 }
 
 #button {
     align: right;
     float: right;
+    margin-right: 20px;
+    width: 80px;
+    height: 20px;
+    background: #d3d3d3;
+    border: 1px solid black;
 }
 
 #newFirstName {
     border: 1px solid black;
     text-align: left;
-    margin-left: 5px;
+    width: 125px;
+    height: 20px;
 
 }
 
 #newLastName {
     border: 1px solid black;
     text-align: left;
-    margin-left: 5px;
+    width: 125px;
+    height: 20px;
+
 }
 
 #newId {
     border: 1px solid black;
     text-align: left;
-    margin-left: 5px;
+    width: 125px;
+    height: 20px;
+
 }
 
 #newJobTitle {
     border: 1px solid black;
     text-align: left;
-    margin-left: 5px;
+    width: 125px;
+    height: 20px;
+
 }
 
 #newAnnualSalary {
     border: 1px solid black;
     text-align: left;
-    margin-right: 5px;
+    width: 125px;
+    height: 20px;
+
 }
 
 table {
     border-collapse: collapse;
-    position: absolute;
     text-align: left;
-    width: 100%;
-    padding: 20px;
+    width: 94%;
+    margin: 20px;
 }
 
 th {
