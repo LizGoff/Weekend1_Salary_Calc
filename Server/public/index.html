@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="styles/style.css"></link>
     <title>Salary Calculator</title>
-    <script src="jquery-3.3.1.min (2).js"></script>
+    <script src="vendors/jquery-3.3.1.min (2).js"></script>
     <script src="script.js"></script>
 </head>
 
@@ -15,19 +16,18 @@
 <body>
 
     <h2 id="addEmployeeText">Add Employee</h2>
-
-    <div class="inputFields">
+    <div>
         <input type='text' placeHolder="First Name" id="newFirstName">
         <input type='text' placeHolder="Last Name" id="newLastName">
         <input type='number' placeHolder="ID" id="newId">
         <input type='text' placeHolder="Title" id="newJobTitle">
         <input type='number' placeHolder="Annual Salary" id="newAnnualSalary">
     </div>
-    <button id='button'>Submit</button>
+    <button id='submit'>Submit</button>
 
-    <h2 id= "employeesText">Employees</h2>
+    <h2 id="employeesText">Employees</h2>
 
-    <table>
+    <table id="table">
         <thread>
             <tr>
                 <th>First Name</th>
@@ -38,7 +38,9 @@
             </tr>
         </thread>
         <tbody id="addNewEmployee"></tbody>
+        </tbody>
     </table>
     <div id="totalMonthly">Total Monthly</div>
 </body>
+
 </html>

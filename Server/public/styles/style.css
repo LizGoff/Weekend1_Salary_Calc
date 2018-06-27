@@ -1,0 +1,74 @@
+ * {
+    margin:0;
+} 
+
+ body {
+    background-size: 100%;
+    width: 100%;
+    background: #F5F5F5;
+    font-family: Arial;
+    background-position: fixed; 
+}
+
+h1 {
+    background: linear-gradient(#696969, black);
+    text-align: center;
+    font-size: 30px;
+    font-style: thin;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#addEmployeeText {
+    font-size: 20px;
+    margin-left: 8.5%;
+    padding: 20px;
+}
+
+input {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 16px;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+
+#submit {
+    margin-left: 2%;
+    margin-top: 20px;
+    width: 80px;
+    height: 20px;
+    background: #d3d3d3;
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    height: 20px;
+    border-collapse: collapse; 
+}
+
+#employeesText {
+    margin-left: 8.5%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    border-collapse: collapse;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+} 
+
+#totalMonthly {
+    margin-left: 8.5%;
+    padding: 20px;
+    font-size: 20px;
+}
